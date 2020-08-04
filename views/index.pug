@@ -1,0 +1,24 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to my world
+  p My account #{account}
+  if status
+    p My status #{status}
+  form(method="post" action="/get")
+    button(type="submit") Get
+  form(method="post" action="/set")
+    label(for="status") Status
+    |
+    |
+    |
+    |
+    |
+    input(placeholder='Enter your status..', oninput="this.className = ''", name='status' required)
+    |
+    |
+    |
+    |
+    |
+    button(type="submit") Set
