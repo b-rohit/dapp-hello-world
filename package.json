@@ -8,7 +8,7 @@
   "author": "Rohit Bohara",
   "license": "Apache-2.0",
   "devDependencies": {
-    "css-loader": "^0.26.1",
+    "css-loader": "^4.2.0",
     "json-loader": "^0.5.4",
     "style-loader": "^0.13.1",
     "truffle-contract": "^1.1.11",
@@ -20,10 +20,9 @@
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "jade": "~1.11.0",
     "jquery": "^3.3.1",
     "morgan": "~1.9.1",
-    "nodemon": "^1.14.12",
+    "nodemon": "^2.0.4",
     "pug": "^3.0.0"
   }
 }
